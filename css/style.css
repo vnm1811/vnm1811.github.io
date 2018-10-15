@@ -1,0 +1,202 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    margin: -10px
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+header .menu nav {
+    text-align: center
+}
+
+header .menu nav ul li {
+    display: inline-block
+}
+
+header .menu nav ul li a {
+    text-decoration: none;
+    padding: 50px;
+    color: rgb(112, 110, 110)
+}
+
+header .menu nav ul li a:hover {
+    color: black;
+    transition: 0.5 ease-in-out;
+}
+
+header .search1 img {
+    max-width: 20px;
+
+}
+
+header .search1 img:hover {
+    transition: 0.5 ease-in-out;
+    max-width: 30px;
+}
+
+.furniture {
+    background-color: white;
+    min-height: 60vh;
+    position: relative
+}
+
+.furniture img {
+    position: absolute;
+    left: 0
+}
+
+.furniture h2 {
+    position: absolute;
+    top: 160px;
+    right: 400px;
+    font-weight: 700;
+    line-height: 10px;
+
+}
+
+.furniture h2 p {
+    color: #c1c1c1
+}
+
+.furniture .btn-shop {
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    background: yellow;
+    padding: 5px 30px;
+    border-radius: 0%;
+    font-size: 15px;
+    bottom: 30px;
+    left: 627px
+}
+
+.furniture .btn-shop:hover {
+    color: yellow;
+    background: black;
+    font-weight: 700
+}
+
+.furniture1 {
+    margin-top: 105px;
+    background-color: rgb(183, 128, 235);
+    background-image: url('../img/furniture1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+    text-align: center
+}
+
+.furniture1 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    top: 200px;
+    right: 190px;
+    color: white;
+    letter-spacing: 10px
+}
+
+.furniture1 p {
+    position: absolute;
+    width: 600px;
+    color: white;
+    font-size: 15px;
+    bottom: -450px;
+    left: 300px;
+    letter-spacing: 1.5px
+}
+
+.furniture1 .btn-shopfur {
+    position: absolute;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    border-radius: 0%;
+    padding: 5px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    bottom: -60px;
+    left: 230px
+}
+
+.furniture1 .btn-shopfur:hover {
+    background: white;
+    color: rgb(112, 110, 110);
+    font-weight: 700
+}
+
+.fashion {
+    background-color: white;
+    min-height: 60vh;
+    position: relative
+}
+
+.fashion img {
+    position: absolute;
+    right: 0
+}
+
+.fashion p {
+    position: absolute
+}
+
+.fashion .btn-shopfas {
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    background: #ed2451;
+    padding: 5px 30px;
+    border-radius: 0%;
+    font-size: 15px;
+    top: 300px
+}
+
+.fashion .btn-shopfas:hover {
+    background: black;
+    font-weight: 700;
+    color: #ed2451;
+
+}
+
+.fashion1 {
+    margin-top: 105px;
+    background-color: #ed2451;
+    background-image: url('../img/fashion1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+    text-align: center
+}
+
+.fashion1 .btn-shopfas1 {
+    position: absolute;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    border-radius: 0%;
+    padding: 5px 30px;
+    font-size: 15px;
+    font-weight: 700;
+   
+}
+
+.fashion1 .btn-shopfas1:hover {
+    background: white;
+    color: rgb(112, 110, 110);
+    font-weight: 700
+}
+
+footer {
+    background: #252525;
+    min-height: 40vh;
+    margin: 0
+}
