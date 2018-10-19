@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,52 +8,57 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    
+
 </head>
+
 <body>
     <style>
         * {
             box-sizing: border-box;
         }
-        
+
         body {
             margin: 0;
             font-family: Arial;
             background: rgb(250, 250, 148)
         }
-        header{
+
+        header {
             background: white;
             margin-top: -10px;
             padding-top: 1px;
             max-height: 65px
-           
         }
+
         .text1 {
             text-align: center;
             padding: 32px;
         }
-        
+
         .row {
-            display: -ms-flexbox; /* IE10 */
+            display: -ms-flexbox;
+            /* IE10 */
             display: flex;
-            -ms-flex-wrap: wrap; /* IE10 */
+            -ms-flex-wrap: wrap;
+            /* IE10 */
             flex-wrap: wrap;
             padding: 0 4px;
         }
-        
+
         /* Create four equal columns that sits next to each other */
         .column {
-            -ms-flex: 25%; /* IE10 */
+            -ms-flex: 25%;
+            /* IE10 */
             flex: 25%;
             max-width: 25%;
             padding: 0 4px;
         }
-        
+
         .column img {
             margin-top: 8px;
             vertical-align: middle;
         }
-        
+
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 800px) {
             .column {
@@ -61,7 +67,7 @@
                 max-width: 50%;
             }
         }
-        
+
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
         @media screen and (max-width: 600px) {
             .column {
@@ -70,15 +76,10 @@
                 max-width: 100%;
             }
         }
-        .fu img:hover{
-            transition: 1.5 ease-in-out;
-    
-    -webkit-transform:  scale(1.1)  rotate(0deg);
-    border: 5px solid white;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.479)
-        }
-        </style>
-     <header>
+
+        
+    </style>
+    <header>
         <div class="container">
             <div class="row mt-4 ">
                 <div class="col-md-2 col-lg-2 logo ">
@@ -102,60 +103,61 @@
             </div>
         </div>
     </header>
-              
-              <!-- Photo Grid -->
-              
-              
-              <div class="text1">
-                <h1>FURNITURE</h1>
-                <p>Designer furniture  made for you</p>
-              </div>
-              
-              <!-- Photo Grid -->
-              <div class="row fu"> 
-                <div class="column">
-                    <img src="img/yellow/2fu.jpg" style="width:100%">
-                    <img src="img/yellow/3fu.jpg" style="width:100%">
-                    <img src="img/yellow/4fu.jpg" style="width:100%">
-                    <img src="img/yellow/6fu.jpg" style="width:100%">
-                    <img src="img/yellow/7fu.jpg" style="width:100%">
-                    <img src="img/yellow/8fu.jpg" style="width:100%">
-                    <img src="img/yellow/15fu.jpg" style="width:100%">
-                    <img src="img/yellow/18fu.jpg" style="width:100%">
-                  </div>
-                  <div class="column">
-                    <img src="img/blue/1fu.jpg" style="width:100%">
-                    <img src="img/blue/2fu.jpg" style="width:100%">
-                    <img src="img/blue/3fu.jpg" style="width:100%">
-                    <img src="img/blue/6fu.jpg" style="width:100%">
-                    <img src="img/blue/8fu.jpg" style="width:100%">
-                    <img src="img/blue/9fu.jpg" style="width:100%">
-                    <img src="img/blue/13fa.png" style="width:100%">
-                    <img src="img/blue/14fu.jpg" style="width:100%">
-                  </div>  
-                <div class="column">
-                  <img src="img/red/2fu.jpg" style="width:100%">
-                  <img src="img/red/4fu.jpg" style="width:100%">
-                  <img src="img/red/5fu.jpg" style="width:100%">
-                  <img src="img/red/6fu.jpg" style="width:100%">
-                  <img src="img/red/7fu.jpg" style="width:100%">
-                  <img src="img/red/9fu.jpg" style="width:100%">
-                  <img src="img/red/10fu.jpg" style="width:100%">
-                </div>
-                <div class="column">
-                  <img src="img/green/2fu.jpg" style="width:100%">
-                  <img src="img/green/3fu.jpg" style="width:100%">
-                  <img src="img/green/4fu.jpg" style="width:100%">
-                  <img src="img/green/5fu.jpg" style="width:100%">
-                  <img src="img/green/8fu.jpg" style="width:100%">
-                  <img src="img/green/9fu.jpg" style="width:100%">
-                  <img src="img/green/10fu.jpg" style="width:100%">
-                  <img src="img/green/12fu.jpg" style="width:100%">
-                  <img src="img/green/14fu.jpg" style="width:100%">
-                </div>
-              </div>
-              <script src="js/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Photo Grid -->
+
+
+    <div class="text1">
+        <h1>FURNITURE</h1>
+        <p>Designer furniture made for you</p>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row fu">
+        <div class="column">
+            <img src="img/yellow/2fu.jpg" style="width:100%">
+            <img src="img/yellow/3fu.jpg" style="width:100%">
+            <img src="img/yellow/4fu.jpg" style="width:100%">
+            <img src="img/yellow/6fu.jpg" style="width:100%">
+            <img src="img/yellow/7fu.jpg" style="width:100%">
+            <img src="img/yellow/8fu.jpg" style="width:100%">
+            <img src="img/yellow/15fu.jpg" style="width:100%">
+            <img src="img/yellow/18fu.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/blue/1fu.jpg" style="width:100%">
+            <img src="img/blue/2fu.jpg" style="width:100%">
+            <img src="img/blue/3fu.jpg" style="width:100%">
+            <img src="img/blue/6fu.jpg" style="width:100%">
+            <img src="img/blue/8fu.jpg" style="width:100%">
+            <img src="img/blue/9fu.jpg" style="width:100%">
+            <img src="img/blue/13fa.png" style="width:100%">
+            <img src="img/blue/14fu.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/red/2fu.jpg" style="width:100%">
+            <img src="img/red/4fu.jpg" style="width:100%">
+            <img src="img/red/5fu.jpg" style="width:100%">
+            <img src="img/red/6fu.jpg" style="width:100%">
+            <img src="img/red/7fu.jpg" style="width:100%">
+            <img src="img/red/9fu.jpg" style="width:100%">
+            <img src="img/red/10fu.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/green/2fu.jpg" style="width:100%">
+            <img src="img/green/3fu.jpg" style="width:100%">
+            <img src="img/green/4fu.jpg" style="width:100%">
+            <img src="img/green/5fu.jpg" style="width:100%">
+            <img src="img/green/8fu.jpg" style="width:100%">
+            <img src="img/green/9fu.jpg" style="width:100%">
+            <img src="img/green/10fu.jpg" style="width:100%">
+            <img src="img/green/12fu.jpg" style="width:100%">
+            <img src="img/green/14fu.jpg" style="width:100%">
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -305,16 +305,15 @@ footer .footer2  i:hover{
     
 }
 .fa img:hover {
-    transition: 1.5s ease-in-out;
+    transition: 0.8s ease-in-out;
 
     -webkit-transform: scale(1.1) rotate(0deg);
-    border: 5px solid white;
+   
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.479)
 }
 .fu img:hover {
-    transition: 1.5 ease-in-out;
-
+    transition: 0.8s ease-in-out;
     -webkit-transform: scale(1.1) rotate(0deg);
-    border: 5px solid white;
+    
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.479)
 }
