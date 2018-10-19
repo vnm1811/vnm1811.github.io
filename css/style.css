@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-
+    
 }
 
 header {
@@ -33,6 +33,9 @@ header .menu nav ul li a:hover{
     transition: 0.5 ease-in-out;  
     
   
+}
+header .menu nav ul li a:valid{
+    color: black
 }
 
 /* h1::before {
