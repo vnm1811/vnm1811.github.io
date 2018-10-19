@@ -12,22 +12,60 @@ header .logo img {
 }
 
 header .menu nav {
-    text-align: center
+    text-align: center;
+    position: relative
 }
 
 header .menu nav ul li {
-    display: inline-block
+    display: inline-block;
+    position: relative;
 }
 
 header .menu nav ul li a {
     text-decoration: none;
     padding: 50px;
-    color: rgb(112, 110, 110)
+    color: rgb(112, 110, 110);
+   
 }
 
-header .menu nav ul li a:hover {
+header .menu nav ul li a:hover{
     color: black;
-    transition: 0.5 ease-in-out;
+    transition: 0.5 ease-in-out;  
+    
+  
+}
+
+/* h1::before {
+
+    content: '';
+    display: block;
+    height: 2px;
+    background: white;
+    border-radius: 70%;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px
+} */
+header .menu nav ul li a::before{
+content: '';
+display: block;
+height: 2px;
+background:  rgb(112, 110, 110);
+width: 100px;
+position: absolute;
+left: 53%;
+transform: translateX(-50%);
+bottom: -8px;
+transition: 0.5 ease-in-out;
+margin:0 -5px;
+opacity: 0;
+}
+header .menu nav ul li a:hover:before{
+   
+opacity: 2;
+    background: black
 }
 
 header .search1 img {
@@ -37,24 +75,26 @@ header .search1 img {
 
 header .search1 img:hover {
     transition: 0.5 ease-in-out;
-    max-width: 30px;
+    
+    -webkit-transform:  scale(1.2)  rotate(0deg)
 }
 
 .furniture {
     background-color: white;
     min-height: 60vh;
-    position: relative
+    position: relative;
+    
 }
 
 .furniture img {
     position: absolute;
-    left: 0
+    left: -120px;
 }
 
 .furniture h2 {
     position: absolute;
     top: 160px;
-    right: 400px;
+    left: 200px;
     font-weight: 700;
     line-height: 10px;
 
@@ -64,7 +104,7 @@ header .search1 img:hover {
     color: #c1c1c1
 }
 
-.furniture .btn-shop {
+.furniture  .btn-shop {
     position: absolute;
     color: black;
     font-weight: 700;
@@ -72,8 +112,8 @@ header .search1 img:hover {
     padding: 5px 30px;
     border-radius: 0%;
     font-size: 15px;
-    bottom: 30px;
-    left: 627px
+    top: 300px;
+    left: 200px
 }
 
 .furniture .btn-shop:hover {
@@ -85,7 +125,7 @@ header .search1 img:hover {
 .furniture1 {
     margin-top: 105px;
     background-color: rgb(183, 128, 235);
-    background-image: url('../img/furniture1.png');
+    background-image: url('../img/w1000-5165305vDa5SUV.png');
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -98,7 +138,7 @@ header .search1 img:hover {
     text-align: center;
     font-size: 100px;
     font-weight: bold;
-    top: 200px;
+    top: 150px;
     right: 190px;
     color: white;
     letter-spacing: 10px
@@ -107,9 +147,9 @@ header .search1 img:hover {
 .furniture1 p {
     position: absolute;
     width: 600px;
-    color: white;
+    color: rgb(80, 79, 79);
     font-size: 15px;
-    bottom: -450px;
+    bottom: -400px;
     left: 300px;
     letter-spacing: 1.5px
 }
@@ -123,8 +163,8 @@ header .search1 img:hover {
     padding: 5px 30px;
     font-size: 15px;
     font-weight: 700;
-    bottom: -60px;
-    left: 230px
+    bottom: -100px;
+    left: 220px
 }
 
 .furniture1 .btn-shopfur:hover {
@@ -141,41 +181,65 @@ header .search1 img:hover {
 
 .fashion img {
     position: absolute;
-    right: 0
+    right: -120px
 }
 
-.fashion p {
-    position: absolute
+.fashion h2 {
+    position: absolute;
+  top: 120px;
+  right: 200px;
+  text-align: right;
+  font-weight: 700;
+  color: #c1c1c1
+}
+.fashion h2 p{
+    margin: 0;
+    color: black
 }
 
 .fashion .btn-shopfas {
     position: absolute;
     color: black;
     font-weight: 700;
-    background: #ed2451;
+    background: #06d96a;
     padding: 5px 30px;
     border-radius: 0%;
     font-size: 15px;
-    top: 300px
+top: 300px;
+right: 200px;
+
+    
 }
 
 .fashion .btn-shopfas:hover {
     background: black;
     font-weight: 700;
-    color: #ed2451;
+    color: #06d96a;
 
 }
 
 .fashion1 {
     margin-top: 105px;
-    background-color: #ed2451;
-    background-image: url('../img/fashion1.png');
+    background-color:#06d96a;
+    background-image: url('../img/cecille-chavez-photography-1.png');
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
     position: relative;
     text-align: center
 }
+
+.fashion1 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    top: 150px;
+    right: 190px;
+    color: white;
+    letter-spacing: 10px
+}
+
 
 .fashion1 .btn-shopfas1 {
     position: absolute;
@@ -186,6 +250,9 @@ header .search1 img:hover {
     padding: 5px 30px;
     font-size: 15px;
     font-weight: 700;
+    top: 450px;
+    left:500px
+    
    
 }
 
@@ -197,6 +264,40 @@ header .search1 img:hover {
 
 footer {
     background: #252525;
-    min-height: 40vh;
-    margin: 0
+    min-height: 30vh;
+    color: white;
+   
+}
+footer .footer1 {
+    color: rgb(201, 198, 198);
+    margin-top: 35px
+}
+footer .footer1 h1{
+    color: white
+}
+footer .footer1 a{
+    color: rgb(201, 198, 198)  ;
+    text-decoration: none;
+    letter-spacing: 5px
+}
+footer .footer1 a:hover{
+    color:white ;
+    
+}
+footer .footer2{
+    color:   rgb(201, 198, 198);
+    font-size: 20px;
+    text-align: right;
+    margin-top: 35px;
+    letter-spacing: 5px;
+    
+    
+
+}
+footer .footer2  i:hover{
+    color: white;
+    
+    -webkit-transform:  scale(1.2)  rotate(0deg)
+
+    
 }
